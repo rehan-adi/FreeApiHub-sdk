@@ -1,22 +1,22 @@
 {
-  "name": "FreeApiHub-sdk",
+  "name": "freeapihub-sdk",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A TypeScript SDK for FreeApiHub, providing simple access to free APIs with support for data retrieval and integration. Ideal for JavaScript and TypeScript projects.",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "dist/index.js",
     "dev": "ts-node src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rehan",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.9.0",
-    "axios": "^1.7.7",
-    "typescript": "^5.6.3"
+    "axios": "^1.7.7"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
