@@ -18,6 +18,6 @@ export const getQuoteById = async (quoteId: string): Promise<Quote> => {
     );
     return response.data;
   } catch (error) {
-    throw new Error(`Failed to fetch book with ID ${quoteId}: ${error}`);
+    throw new Error(`Failed to fetch quote with ID ${quoteId}: ${error}`);
   }
 };
