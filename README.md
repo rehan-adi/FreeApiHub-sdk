@@ -70,20 +70,20 @@ fetchBook("book-id-here");
 
 ### Available Methods
 
--getAllJokes: Fetches all jokes from the API.
--getJokeById: Fetches a joke by its ID.
--getAllBooks: Fetches all books from the API.
--getBookById: Fetches a book by its ID.
--getAllUsers: Fetches all users from the API.
--getUserById: Fetches a user by their ID.
--getAllStocks: Fetches all stock data.
--getStockById: Fetches stock data by its ID.
--getAllQuotes: Fetches all quotes.
--getQuoteById: Fetches a quote by its ID.
--getAllProducts: Fetches all products.
--getProductById: Fetches a product by its ID.
--getAllProgrammingLanguages: Fetches all programming languages.
--getProgrammingLanguageById: Fetches a programming language by its ID.
+- `getAllJokes`: Fetches all jokes from the API.
+- `getJokeById(bookId: string)`: Fetches a joke by its ID.
+- `getAllBooks`: Fetches all books from the API.
+- `getBookById(bookId: string)`: Fetches a book by its ID.
+- `getAllUsers`: Fetches all users from the API.
+- `getUserById(userId: string)`: Fetches a user by their ID.
+- `getAllStocks`: Fetches all stock data.
+- `getStockById(stockId: string)`: Fetches stock data by its ID.
+- `getAllQuotes`: Fetches all quotes.
+- `getQuoteById(quoteId: string)`: Fetches a quote by its ID.
+- `getAllProducts`: Fetches all products.
+- `getProductById(productId: string)`: Fetches a product by its ID.
+- `getAllProgrammingLanguages`: Fetches all programming languages.
+- `getProgrammingLanguageById(languageId: string)`: Fetches a programming language by its ID.
 
 ## API Documentation
 
