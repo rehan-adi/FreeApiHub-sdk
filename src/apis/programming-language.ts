@@ -6,10 +6,12 @@ export const getAllProgrammingLanguages = async (): Promise<
   ProgrammingLanguage[]
 > => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/api/v1/languages`);
+    const response = await axios.get(
+      `${API_BASE_URL}/api/v1/programming-languages`
+    );
     return response.data;
   } catch (error) {
-    throw new Error(`Failed to programming languages books: ${error}`);
+    throw new Error(`Failed to get programming languages: ${error}`);
   }
 };
 
@@ -18,7 +20,7 @@ export const getProgrammingLanguageById = async (
 ): Promise<ProgrammingLanguage> => {
   try {
     const response = await axios.get(
-      `${API_BASE_URL}/api/v1/languages/${languageId}`
+      `${API_BASE_URL}/api/v1/programming-languages/${languageId}`
     );
     return response.data;
   } catch (error) {
